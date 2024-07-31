@@ -8,9 +8,7 @@ Formulario para buscar libros en la base de datos.
 Instrucciones
 
 
-Configuración Inicial
-
-Clona el repositorio y navega al directorio del proyecto.
+clonar el repositorio
 
 Crea un entorno virtual:
 
@@ -27,6 +25,12 @@ Primero ejecutar:
 python manage.py makemigrations
 Luego ejecutar:
 python manage.py migrate
+
+Opcional crear el superusuario!
+usar python manage.py createsuperuser
+
+
 Inicia el servidor:
 python manage.py runserver
 Navega a http://localhost:8000 para acceder a la aplicación.
+
